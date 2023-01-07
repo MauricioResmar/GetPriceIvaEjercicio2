@@ -4,11 +4,9 @@ import java.util.Scanner;
 
 public class GetPriceIva {
 /***
- * La presente Class nos permitira obtener diferentes tipos de datos y dependiendo de esto,
- * utilizare la sobrecarga del constructor para tratar el tipo de dato e incrementarle el
- * valor del IVA establecido.
- * Para implementarla haremos uso del objeto Scanner el cual nos permite leer la entrada desde
- * la consola.
+ * La presente Clase nos permitira leer un dato númerico en la entrada de consola mediante
+ * el objeto Scanner así como el respectivo valor % Iva con el cual, recalcularemos el valor final
+ * incluido el Iva.
  */
 public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
